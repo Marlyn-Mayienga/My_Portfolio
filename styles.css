@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
 body {
   background-color: #191765;
   color: white;
@@ -39,23 +45,37 @@ p {
   color: #b3bac5;
 }
 .skills ul {
+  padding: 0px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  flex-wrap: nowrap;
+  align-items: flex-start;
 }
-li {
+
+.skills ul li {
   list-style: none;
-  align-self: flex-start;
+  align-items: flex-start;
 }
 
 .social-links ul {
   display: flex;
   flex-direction: row;
-/* li {
-    a {
-      color: white;
-      margin: 10px;
-    }
-  } */
+  justify-content: center;
+
 }
+
+.social-links li {
+  list-style: none;
+
+}
+
+.social-links a {
+  margin: 10px;
+  color: white;
+  list-style: none;
+}
+
+
+
+
+
