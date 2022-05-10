@@ -1,5 +1,61 @@
 body {
-    background-color: #191765;
-    color: white;
-    font-family: Roboto, Arial, sans-serif;
-  }
+  background-color: #191765;
+  color: white;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+h1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 105.47px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #9390ff;
+  size: 10px;
+}
+
+.nav-link {
+  color: white;
+}
+
+h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400, regular;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 10px 15px;
+  color: #b3bac5;
+}
+.skills ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+li {
+  list-style: none;
+  align-self: flex-start;
+}
+
+.social-links ul {
+  display: flex;
+  flex-direction: row;
+/* li {
+    a {
+      color: white;
+      margin: 10px;
+    }
+  } */
+}
