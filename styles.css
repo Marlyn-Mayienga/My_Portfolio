@@ -1,7 +1,7 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
-}
+} */
 
 
 body {
@@ -75,7 +75,24 @@ p {
   list-style: none;
 }
 
+form {
+  margin-top: 88px;
+}
 
+input {
+  margin-top: 20px;
+  height: 48px;
+}
 
+textarea {
+  margin-top: 20px;
+  height: 136px;
+}
 
+button {
+  height: 48px;
+  width: 160px;
+  margin-bottom: 20px;
+  background-color: #9390FF;
+}
 
