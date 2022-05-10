@@ -96,3 +96,17 @@ button {
   background-color: #9390FF;
 }
 
+footer ul li {
+  margin-right: 10px;
+  list-style: none  ;
+}
+
+footer ul {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul li a {
+  color: #fff;
+}
