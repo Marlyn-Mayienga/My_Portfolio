@@ -46,6 +46,12 @@ Install the linters folder to your project.
 - Twitter: [@Ritiksi76216487](https://twitter.com/Ritiksi76216487)
 - LinkedIn: [dhuruv-singh-a1a51aa9](https://www.linkedin.com/in/dhuruv-singh-a1a51aa9/)
 
+## Richard Burneo
+
+- GitHub: [@pirc25](https://github.com/pirc25)
+- Twitter: [@RichardBurneo](https://twitter.com/RichardBurneo)
+- LinkedIn: [richard-burneo-aguilera-1277aa203](https://www.linkedin.com/in/richard-burneo-aguilera-1277aa203/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
