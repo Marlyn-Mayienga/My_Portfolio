@@ -1,7 +1,8 @@
-/* * {
+* {
   padding: 0;
   margin: 0;
-} */
+  /* overflow: hidden; */
+}
 
 
 body {
@@ -109,4 +110,18 @@ footer ul {
 
 footer ul li a {
   color: #fff;
+}
+.first-img {
+  height: 200px;
+  width: 400px;
+  left: 69px;
+  top: 100px;
+  position: absolute;
+}
+.second-img{
+  height: 200px;
+  width: 400px;
+  right: 60px;
+  top: 350px;
+  position: absolute
 }
