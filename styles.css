@@ -195,13 +195,15 @@ footer ul li a {
 .skillset li{
   list-style: none;
   margin: 10px;
-  border-right: #fff;
+  border-right:  2px #fff;
 }
 
 .skillset li:last-of-type {
   border-right: none;
 }
-
+h3{
+  color: #9390ff;
+}
 
 
 
