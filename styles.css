@@ -186,6 +186,23 @@ footer ul li a {
   display: none;
 }
 
+.skillset {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.skillset li{
+  list-style: none;
+  margin: 10px;
+  border-right: #fff;
+}
+
+.skillset li:last-of-type {
+  border-right: none;
+}
+
+
 
 
 @media (max-width: 770px) {
