@@ -37,49 +37,59 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Marlyn Mayienga</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Portfolio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
-            </li>
-          </ul>
+    <div>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Marlyn Mayienga</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="container-fluid">
+      </nav>
+      <!-- <div class="hamburger-btn">
+        <i class="fas fa-bars"></i>
+      </div> -->
+    </div>
+
+    <div class="container-fluid landing">
       <div class="row justify-content-center">
-        <div class="col order-first">
-          <img class = "first-img" src="./assets/circle_header.svg" alt="header circular image" />
+        <div class="col-md-4 order-first">
+          <img
+            class="first-img"
+            src="./assets/circle_header.svg"
+            alt="header circular image"
+          />
         </div>
-        <main class="col order-second">
+        <main class="col-md-4 order-second">
           <h1>Marlyn Mayienga</h1>
           <h2>Software Developer</h2>
           <p>
@@ -89,7 +99,7 @@
           </p>
           <hr />
           <div class="skills row">
-            <div class="col">
+            <div class="col-6 col-md-4">
               <h3>Languages</h3>
               <ul>
                 <li>Javascript</li>
@@ -98,7 +108,7 @@
                 <li>CSS</li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col-6 col-md-4">
               <h3>Frameworks</h3>
               <ul>
                 <li>Bootstrap</li>
@@ -108,7 +118,7 @@
                 <li>Selenium</li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col-6 col-md-4">
               <h3>Skills</h3>
               <ul>
                 <li>Codekit</li>
@@ -121,16 +131,20 @@
             <hr />
           </div>
         </main>
-        <div class="col order-third">
-          <img class = "second-img" src="./assets/circle_header.svg" alt="header circular image" />
+        <div class="col-md-4 order-third">
+          <img
+            class="second-img"
+            src="./assets/circle_header.svg"
+            alt="header circular image"
+          />
         </div>
       </div>
       <div class="social-links">
         <div class="row mx-0">
-          <div class="col text-start">
-            <span>Work &darr;</span>
+          <div class="col-md-4 text-start">
+            <span class="hide-sm">Work &darr;</span>
           </div>
-          <div class="col">
+          <div class="col-md-4">
             <ul>
               <li>
                 <a href="https://github.com/Marlyn_Mayienga"
@@ -159,7 +173,7 @@
               </li>
             </ul>
           </div>
-          <div class="col text-end">
+          <div class="col-md-4 text-end text-sm-center">
             <span>&darr; Work</span>
           </div>
         </div>
@@ -235,7 +249,7 @@
       </div>
     </div>
     <hr />
-    <footer>
+    <footer class="text-center">
       <ul>
         <li>
           <a href="https://github.com/Marlyn_Mayienga"
@@ -260,10 +274,15 @@
         <li>
           <a href="marlymayienga@gmail.com"><i class="fas fa-envelope"></i></a>
         </li>
-        <li>
+        <li class="email-tag">
           <a href="marlymayienga@gmail.com">marlymayienga@gmail.com</a>
         </li>
       </ul>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

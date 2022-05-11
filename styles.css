@@ -1,8 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  /* overflow: hidden; */
-}
+
 
 
 body {
@@ -100,13 +96,9 @@ button {
 footer ul li {
   margin-right: 10px;
   list-style: none  ;
+  display: inline-block;
 }
 
-footer ul {
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-}
 
 footer ul li a {
   color: #fff;
@@ -124,4 +116,46 @@ footer ul li a {
   right: 60px;
   top: 350px;
   position: absolute
+}
+
+.hamburger-btn{
+  display: none;
+}
+
+
+
+@media (max-width: 770px) {
+body{
+  padding: 10px;
+  overflow-x: hidden;
+}
+
+.landing{
+  overflow-x: hidden;
+}
+
+.navbar .container-fluid {
+  position: relative;
+}
+
+.navbar-toggler{
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  text-align: left;
+}
+.email-tag {
+  color: white;
+  text-align: center !important;
+  display: block;
+}
+.hide-sm{
+  display: none;
+}
+.text-sm-center{
+  text-align: center !important;
+}
+
 }
