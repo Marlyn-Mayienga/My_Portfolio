@@ -21,7 +21,7 @@ h1 {
   size: 10px;
 }
 
-.nav-link {
+.nav-link, .navbar-brand {
   color: white;
 }
 
