@@ -34,13 +34,17 @@ Install the linters folder to your project.
 ### Deployment
 
 
-
-## Authors
+## Marlyn Mayienga
 
 - GitHub: [@githubhandle](https://github.com/Marlyn_Mayienga)
 - Twitter: [@twitterhandle](https://twitter.com/Merl_Mayienga)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Marlyn_Mayienga)
 
+## Dhuruv Singh
+
+- GitHub: [@DhuruvSingh](https://github.com/DhuruvSingh)
+- Twitter: [@Ritiksi76216487](https://twitter.com/Ritiksi76216487)
+- LinkedIn: [dhuruv-singh-a1a51aa9](https://www.linkedin.com/in/dhuruv-singh-a1a51aa9/)
 
 ## 🤝 Contributing
 
