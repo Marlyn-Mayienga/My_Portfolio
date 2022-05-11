@@ -1,202 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>My Website Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-  <body>
-    <div>
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Marlyn Mayienga</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Portfolio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
-              </li>
-            </ul>
-          </div>
+  <title>My Website Portfolio</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Marlyn Mayienga</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <!-- <div class="hamburger-btn">
+      </div>
+    </nav>
+    <!-- <div class="hamburger-btn">
         <i class="fas fa-bars"></i>
       </div> -->
-    </div>
+  </div>
 
-    <div class="container-fluid landing">
-      <div class="row justify-content-center">
-        <div class="col-md-4 order-first">
-          <img
-            class="first-img"
-            src="./assets/circle_header.svg"
-            alt="header circular image"
-          />
-        </div>
-        <main class="col-md-4 order-second">
-          <h1>Marlyn Mayienga</h1>
-          <h2>Software Developer</h2>
-          <p>
-            I can help you build a product, feature or website. Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hestiate to contact me.
-          </p>
-          <hr />
-          <div class="skills row">
-            <div class="col-6 col-md-4">
-              <h3>Languages</h3>
-              <ul>
-                <li>Javascript</li>
-                <li>Ruby</li>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
-            </div>
-            <div class="col-6 col-md-4">
-              <h3>Frameworks</h3>
-              <ul>
-                <li>Bootstrap</li>
-                <li>Ruby on Rails</li>
-                <li>RPSec</li>
-                <li>CapyBase</li>
-                <li>Selenium</li>
-              </ul>
-            </div>
-            <div class="col-6 col-md-4">
-              <h3>Skills</h3>
-              <ul>
-                <li>Codekit</li>
-                <li>Github</li>
-                <li>Codepen</li>
-                <li>Gitlab</li>
-                <li>Terminal</li>
-              </ul>
-            </div>
-            <hr />
-          </div>
-        </main>
-        <div class="col-md-4 order-third">
-          <img
-            class="second-img"
-            src="./assets/circle_header.svg"
-            alt="header circular image"
-          />
-        </div>
+  <div class="container-fluid landing">
+    <div class="row justify-content-center">
+      <div class="col-md-4 order-first">
+        <img class="first-img" src="./assets/circle_header.svg" alt="header circular image" />
       </div>
-      <div class="social-links">
-        <div class="row mx-0">
-          <div class="col-md-4 text-start">
-            <span class="hide-sm">Work &darr;</span>
-          </div>
-          <div class="col-md-4">
+      <main class="col-md-4 order-second">
+        <h1>Marlyn Mayienga</h1>
+        <h2>Software Developer</h2>
+        <p>
+          I can help you build a product, feature or website. Look through
+          some of my work and experience! If you like what you see and have a
+          project you need coded, don’t hestiate to contact me.
+        </p>
+        <hr />
+        <div class="skills row">
+          <div class="col-6 col-md-4">
+            <h3>Languages</h3>
             <ul>
-              <li>
-                <a href="https://github.com/Marlyn_Mayienga"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/marlyn-mayienga/"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/merl.__/?hl=en"
-                  ><i class="fas fa-cat"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/M_ayienga"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a href="marlymayienga@gmail.com"
-                  ><i class="fas fa-envelope"></i
-                ></a>
-              </li>
+              <li>Javascript</li>
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
             </ul>
           </div>
-          <div class="col-md-4 text-end text-sm-center">
-            <span>&darr; Work</span>
+          <div class="col-6 col-md-4">
+            <h3>Frameworks</h3>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Ruby on Rails</li>
+              <li>RPSec</li>
+              <li>CapyBase</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4">
+            <h3>Skills</h3>
+            <ul>
+              <li>Codekit</li>
+              <li>Github</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+          <hr />
+        </div>
+      </main>
+      <div class="col-md-4 order-third">
+        <img class="second-img" src="./assets/circle_header.svg" alt="header circular image" />
+      </div>
+    </div>
+    <div class="social-links">
+      <div class="row mx-0">
+        <div class="col-md-4 text-start">
+          <span class="hide-sm">Work &darr;</span>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>
+              <a href="https://github.com/Marlyn_Mayienga"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/marlyn-mayienga/"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/merl.__/?hl=en"><i class="fas fa-cat"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/M_ayienga"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="marlymayienga@gmail.com"><i class="fas fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-end text-sm-center">
+          <span>&darr; Work</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /*  <div class="container">
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6"></div>
+    </div>
+  </div> -->
+
+  <div class="container Work-section">
+    <div class="row">
+      <h3> My recent work</h3>
+      <hr>
+    </div>
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="./assets/project.jpg" class="img-fluid rounded-start" alt="Image-project-one">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Multi-Post Stories</h5>
+            <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+              has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col-md-2 text-center tag">
+                  CSS </div>
+                <div class="col-md-2 text-center tag">
+                  HTML </div>
+                <div class="col-md-3 text-center tag">
+                  Bootstrap
+                </div>
+                <div class="col-md-2 text-center">
+                  Ruby
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-sm ">See the project</button>
           </div>
         </div>
       </div>
     </div>
-    <!-- <div class="container">
-        <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6"></div>
+    <div class="card mb-3 " style="max-width: 100%;">
+      <div class="row g-0" id="row-work-2">
+        <div class="col-md-6">
+          <img src="./assets/project.jpg" class="img-fluid rounded-start" alt="Image-project-one">
         </div>
-        <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Multi-Post Stories</h5>
+            <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+              has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col-md-2 text-center tag">
+                  CSS </div>
+                <div class="col-md-2 text-center tag">
+                  HTML </div>
+                <div class="col-md-3 text-center tag">
+                  Bootstrap
+                </div>
+                <div class="col-md-2 text-center">
+                  Ruby
+                </div>
+              </div>
+
+            </div>
+            <button type="button" class="btn btn-primary btn-sm ">See the project</button>
+          </div>
         </div>
-        <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6"></div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="./assets/project.jpg" class="img-fluid rounded-start" alt="Image-project-one">
         </div>
-        <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6"></div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Multi-Post Stories</h5>
+            <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+              has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col-md-2 text-center tag">
+                  CSS </div>
+                <div class="col-md-2 text-center tag">
+                  HTML </div>
+                <div class="col-md-3 text-center tag">
+                  Bootstrap
+                </div>
+                <div class="col-md-2 text-center">
+                  Ruby
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-sm ">See the project</button>
+          </div>
         </div>
-      </div> -->
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row g-0" id="row-work-4">
+        <div class="col-md-6">
+          <img src="./assets/project.jpg" class="img-fluid rounded-start" alt="Image-project-one">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Multi-Post Stories</h5>
+            <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+              has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <div class="container">
+              <div class="row align-items-start">
+                <div class="col-md-2 text-center tag">
+                  CSS
+                </div>
+                <div class="col-md-2 text-center tag">
+                  HTML </div>
+                <div class="col-md-3 text-center tag">
+                  Bootstrap
+                </div>
+                <div class="col-md-2 text-center">
+                  Ruby
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-sm ">See the project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8">
@@ -209,38 +295,19 @@
           <form class="text-center">
             <div class="row">
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="First name"
-                  aria-label="First name"
-                />
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name" />
               </div>
               <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Last name"
-                  aria-label="Last name"
-                />
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" />
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Enter email"
-                  aria-label="Enter email"
-                />
+                <input type="email" class="form-control" placeholder="Enter email" aria-label="Enter email" />
               </div>
               <div class="mb-3">
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                  placeholder="Write your massage here"
-                ></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                  placeholder="Write your massage here"></textarea>
               </div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -252,24 +319,16 @@
     <footer class="text-center">
       <ul>
         <li>
-          <a href="https://github.com/Marlyn_Mayienga"
-            ><i class="fab fa-github social-icon"></i
-          ></a>
+          <a href="https://github.com/Marlyn_Mayienga"><i class="fab fa-github social-icon"></i></a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/marlyn-mayienga/"
-            ><i class="fab fa-linkedin-in social-icon"></i
-          ></a>
+          <a href="https://www.linkedin.com/in/marlyn-mayienga/"><i class="fab fa-linkedin-in social-icon"></i></a>
         </li>
         <li>
-          <a href="https://www.instagram.com/merl.__/?hl=en"
-            ><i class="fab fa-angellist"></i
-          ></a>
+          <a href="https://www.instagram.com/merl.__/?hl=en"><i class="fab fa-angellist"></i></a>
         </li>
         <li>
-          <a href="https://twitter.com/M_ayienga"
-            ><i class="fab fa-twitter"></i
-          ></a>
+          <a href="https://twitter.com/M_ayienga"><i class="fab fa-twitter"></i></a>
         </li>
         <li>
           <a href="marlymayienga@gmail.com"><i class="fas fa-envelope"></i></a>
@@ -279,10 +338,9 @@
         </li>
       </ul>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      crossorigin="anonymous"></script>
+</body>
+
 </html>

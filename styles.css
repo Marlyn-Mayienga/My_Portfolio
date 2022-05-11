@@ -72,6 +72,70 @@ p {
   list-style: none;
 }
 
+
+/* -- WORK SECTION --*/
+
+.Work-section {
+  margin-top: 150px;
+}
+
+
+.Work-section h3 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700, bold;
+  font-size: 30px;
+  vertical-align: center;
+  color: #9390ff;
+  margin-bottom: 33px;
+} 
+
+.Work-section h5 {
+    margin: 0 15px ;
+
+}
+
+
+.card {
+  background-color: inherit;
+  border: 0;
+  padding-bottom: 40px ;
+}
+
+
+.card-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 52px;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #b3bac5;
+}
+
+.Work-section .tag {
+  border-right: solid white 1px;
+}
+
+#row-work-2 ,
+#row-work-4  {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Work-section button {
+  margin: 34px 15px ;
+  background-color: #9390ff;
+}
+
+
+
 form {
   margin-top: 88px;
 }
