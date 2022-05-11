@@ -1,6 +1,4 @@
 
-
-
 body {
   background-color: #191765;
   color: white;
@@ -18,7 +16,8 @@ h1 {
   size: 10px;
 }
 
-.nav-link, .navbar-brand {
+.nav-link,
+.navbar-brand {
   color: white;
 }
 
@@ -41,12 +40,29 @@ p {
   padding: 10px 15px;
   color: #b3bac5;
 }
+
 .skills ul {
-  padding: 0px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+footer ul li {
+  margin-right: 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+.social-links li {
+  list-style: none;
+}
+
+.skillset li {
+  list-style: none;
+  margin: 10px;
+  border-right: 2px #fff;
 }
 
 .skills ul li {
@@ -58,12 +74,10 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
-.social-links li {
-  list-style: none;
-
+footer ul li a {
+  color: #fff;
 }
 
 .social-links a {
@@ -73,12 +87,15 @@ p {
 }
 
 
-/* -- WORK SECTION --*/
+/* -- WORK SECTION -- */
 
 .Work-section {
   margin-top: 150px;
 }
 
+h3 {
+  color: #9390ff;
+}
 
 .Work-section h3 {
   font-family: Roboto, Arial, sans-serif;
@@ -87,23 +104,20 @@ p {
   vertical-align: center;
   color: #9390ff;
   margin-bottom: 33px;
-} 
-
-.Work-section h5 {
-    margin: 0 15px ;
-
 }
 
+.Work-section h5 {
+  margin: 0 15px;
+}
 
 .card {
   background-color: inherit;
   border: 0;
-  padding-bottom: 40px ;
+  padding-bottom: 40px;
 }
 
-
 .card-title {
-  font-family: 'Roboto';
+  font-family: Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -123,18 +137,23 @@ p {
   border-right: solid white 1px;
 }
 
-#row-work-2 ,
-#row-work-4  {
+#row-work-2,
+#row-work-4 {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.Work-section button {
-  margin: 34px 15px ;
+button {
+  height: 48px;
+  width: 160px;
+  margin-bottom: 20px;
   background-color: #9390ff;
 }
 
-
+.Work-section button {
+  margin: 34px 15px;
+  background-color: #9390ff;
+}
 
 form {
   margin-top: 88px;
@@ -150,23 +169,6 @@ textarea {
   height: 136px;
 }
 
-button {
-  height: 48px;
-  width: 160px;
-  margin-bottom: 20px;
-  background-color: #9390FF;
-}
-
-footer ul li {
-  margin-right: 10px;
-  list-style: none  ;
-  display: inline-block;
-}
-
-
-footer ul li a {
-  color: #fff;
-}
 .first-img {
   height: 200px;
   width: 400px;
@@ -174,15 +176,16 @@ footer ul li a {
   top: 100px;
   position: absolute;
 }
-.second-img{
+
+.second-img {
   height: 200px;
   width: 400px;
   right: 60px;
   top: 350px;
-  position: absolute
+  position: absolute;
 }
 
-.hamburger-btn{
+.hamburger-btn {
   display: none;
 }
 
@@ -192,53 +195,45 @@ footer ul li a {
   margin: 0;
   padding: 0;
 }
-.skillset li{
-  list-style: none;
-  margin: 10px;
-  border-right:  2px #fff;
-}
 
 .skillset li:last-of-type {
   border-right: none;
 }
-h3{
-  color: #9390ff;
-}
-
-
 
 @media (max-width: 770px) {
-body{
-  padding: 10px;
-  overflow-x: hidden;
-}
+  body {
+    padding: 10px;
+    overflow-x: hidden;
+  }
 
-.landing{
-  overflow-x: hidden;
-}
+  .landing {
+    overflow-x: hidden;
+  }
 
-.navbar .container-fluid {
-  position: relative;
-}
+  .navbar .container-fluid {
+    position: relative;
+  }
 
-.navbar-toggler{
-  color: white;
-  font-size: 2em;
-  position: absolute;
-  right: 0px;
-  top: 2px;
-  text-align: left;
-}
-.email-tag {
-  color: white;
-  text-align: center !important;
-  display: block;
-}
-.hide-sm{
-  display: none;
-}
-.text-sm-center{
-  text-align: center !important;
-}
+  .navbar-toggler {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    text-align: left;
+  }
 
+  .email-tag {
+    color: white;
+    text-align: center !important;
+    display: block;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  .text-sm-center {
+    text-align: center !important;
+  }
 }
