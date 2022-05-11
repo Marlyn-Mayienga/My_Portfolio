@@ -1,0 +1,238 @@
+
+body {
+  background-color: #191765;
+  color: white;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+h1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 105.47px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #9390ff;
+  size: 10px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white;
+}
+
+h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400, regular;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 10px 15px;
+  color: #b3bac5;
+}
+
+.skills ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+footer ul li {
+  margin-right: 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+.social-links li {
+  list-style: none;
+}
+
+.skillset li {
+  list-style: none;
+  margin: 10px;
+  border-right: 2px #fff;
+}
+
+.skills ul li {
+  list-style: none;
+  align-items: flex-start;
+}
+
+.social-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+.social-links a {
+  margin: 10px;
+  color: white;
+  list-style: none;
+}
+
+/* -- WORK SECTION -- */
+
+.Work-section {
+  margin-top: 150px;
+}
+
+h3 {
+  color: #9390ff;
+}
+
+.Work-section h3 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700, bold;
+  font-size: 30px;
+  vertical-align: center;
+  color: #9390ff;
+  margin-bottom: 33px;
+}
+
+.Work-section h5 {
+  margin: 0 15px;
+}
+
+.card {
+  background-color: inherit;
+  border: 0;
+  padding-bottom: 40px;
+}
+
+.card-title {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 52px;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #b3bac5;
+}
+
+.Work-section .tag {
+  border-right: solid white 1px;
+}
+
+#row-work-2,
+#row-work-4 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+button {
+  height: 48px;
+  width: 160px;
+  margin-bottom: 20px;
+  background-color: #9390ff;
+}
+
+.Work-section button {
+  margin: 34px 15px;
+  background-color: #9390ff;
+}
+
+form {
+  margin-top: 88px;
+}
+
+input {
+  margin-top: 20px;
+  height: 48px;
+}
+
+textarea {
+  margin-top: 20px;
+  height: 136px;
+}
+
+.first-img {
+  height: 200px;
+  width: 400px;
+  left: 69px;
+  top: 100px;
+  position: absolute;
+}
+
+.second-img {
+  height: 200px;
+  width: 400px;
+  right: 60px;
+  top: 350px;
+  position: absolute;
+}
+
+.hamburger-btn {
+  display: none;
+}
+
+.skillset {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.skillset li:last-of-type {
+  border-right: none;
+}
+
+@media (max-width: 770px) {
+  body {
+    padding: 10px;
+    overflow-x: hidden;
+  }
+
+  .landing {
+    overflow-x: hidden;
+  }
+
+  .navbar .container-fluid {
+    position: relative;
+  }
+
+  .navbar-toggler {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    text-align: left;
+  }
+
+  .email-tag {
+    color: white;
+    text-align: center !important;
+    display: block;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  .text-sm-center {
+    text-align: center !important;
+  }
+}

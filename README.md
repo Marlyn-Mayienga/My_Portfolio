@@ -2,18 +2,12 @@
 
 # Project Name
 
-> Description the project.
+> This portfolio project is built using HTML and CSS.  The goal here is to master all of the tools and best practices of Bootstrap.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- HTML, CSS and Bootstrap
 
 
 ## Getting Started
@@ -25,10 +19,13 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+You need to have a code editor to be able to run the commands in the terminal. VSCode is most preferred.
 
 ### Setup
+You need to download the linters folder and copy it to your project.
 
 ### Install
+Install the linters folder to your project.
 
 ### Usage
 
@@ -40,17 +37,10 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/Marlyn_Mayienga)
+- Twitter: [@twitterhandle](https://twitter.com/Merl_Mayienga)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Marlyn_Mayienga)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -71,3 +61,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
